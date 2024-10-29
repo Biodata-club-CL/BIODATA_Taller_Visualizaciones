@@ -1,0 +1,82 @@
+FID	basisOfRecord	site	x	y	day	time	typ_comm	sediment_t	Richness	Lat.elli	Algae
+0	MovingImage_CN	OuterCove	-58,6866	-62,2441	18/1/1992	12:54:09	Type 1	fine sediment, sand or silt	20	NA	1
+15	MovingImage_CN	OuterCove	-58,6866	-62,2441	18/1/1992	12:54:24	Type 1	mix fine sediment	10	NA	1
+19	MovingImage_CN	OuterCove	-58,6866	-62,2441	18/1/1992	12:54:28	Type 2	mix rocky	13	0	1
+468	MovingImage_CN	OuterCove	-58,6868	-62,2441	18/1/1992	13:01:57	Type 6	rocky	6	NA	1
+469	MovingImage_CN	OuterCove	-58,6868	-62,2441	18/1/1992	13:01:58	Type 6	rocky	2	NA	1
+493	MovingImage_CN	OuterCove	-58,6868	-62,244	18/1/1992	13:02:22	Type 5	rocky	23	NA	1
+496	MovingImage_CN	OuterCove	-58,6868	-62,244	18/1/1992	13:02:25	Type 2	rocky	3	NA	1
+1056	MovingImage_CN	OuterCove	-58,687	-62,244	18/1/1992	13:11:45	Type 6	rocky	5	NA	1
+1554	MovingImage_CN	OuterCove	-58,6872	-62,244	18/1/1992	13:20:03	Type 5	mix rocky	25	0	1
+1609	MovingImage_CN	InnerCove	-58,6872	-62,244	18/1/1992	13:20:58	NA.0	fine sediment	6	NA	0
+1878	MovingImage_CN	InnerCove	-58,6874	-62,244	18/1/1992	13:25:27	Type 1.1	fine sediment	19	NA	0
+1884	MovingImage_CN	InnerCove	-58,6874	-62,244	18/1/1992	13:25:33	Type 1.1	fine sediment	9	1	0
+7644	MovingImage_CN	InnerCove	-58,6687	-62,2278	27/1/1992	19:06:15	Type 1.1	fine sediment	18	1	0
+7647	MovingImage_CN	InnerCove	-58,6687	-62,2278	27/1/1992	19:06:18	Type 1.1	fine sediment	8	1	0
+7845	MovingImage_CN	InnerCove	-58,6678	-62,228	27/1/1992	19:09:36	Type 1.1	fine sediment	8	0	NA
+7940	MovingImage_CN	InnerCove	-58,6672	-62,2279	27/1/1992	19:11:11	Type 1.1	fine sediment	8	NA	NA
+7969	MovingImage_CN	InnerCove	-58,667	-62,2278	27/1/1992	19:11:40	Type 1.1	fine sediment	12	1	NA
+8191	MovingImage_CN	InnerCove	-58,6648	-62,2272	27/1/1992	19:15:22	Type 1.1	fine sediment	15	0	0
+8193	MovingImage_CN	InnerCove	-58,6648	-62,2272	27/1/1992	19:15:24	Type 1.1	fine sediment	5	0	0
+8390	MovingImage_CN	InnerCove	-58,663	-62,2267	27/1/1992	19:18:41	Type 1.2	fine sediment	3	NA	0
+9462	MovingImage_CN	InnerCove	-58,6548	-62,2284	27/1/1992	19:36:33	Type 1.2	fine sediment	17	1	0
+9463	MovingImage_CN	InnerCove	-58,6548	-62,2284	27/1/1992	19:36:34	Type 1.2	fine sediment	15	1	0
+9466	MovingImage_CN	InnerCove	-58,6548	-62,2284	27/1/1992	19:36:37	Type 1	fine sediment	6	0	0
+9696	MovingImage_CN	InnerCove	-58,6536	-62,2286	27/1/1992	19:40:27	Type 1.2	fine sediment	17	0	0
+17446	MovingImage_CN	OuterCove	-58,6866	-62,2464	6/2/1992	19:15:37	Type 2	rocky	6	NA	NA
+17449	MovingImage_CN	OuterCove	-58,6866	-62,2464	6/2/1992	19:15:40	Type 5	rocky	6	NA	NA
+17452	MovingImage_CN	OuterCove	-58,6866	-62,2464	6/2/1992	19:15:43	Type 5	rocky	11	0	1
+17456	MovingImage_CN	OuterCove	-58,6866	-62,2464	6/2/1992	19:15:47	Type 5	rocky	18	0	1
+17469	MovingImage_CN	OuterCove	-58,6865	-62,2464	6/2/1992	19:16:00	Type 5	rocky	7	NA	NA
+17496	MovingImage_CN	OuterCove	-58,6864	-62,2464	6/2/1992	19:16:27	Type 5	rocky	14	NA	NA
+18573	MovingImage_CN	OuterCove	-58,687	-62,2443	6/2/1992	19:34:24	Type 3	rocky	25	NA	NA
+18622	MovingImage_CN	OuterCove	-58,6867	-62,2443	6/2/1992	19:35:13	Type 4	rocky	6	0	1
+18659	MovingImage_CN	OuterCove	-58,6866	-62,2444	6/2/1992	19:35:50	Type 2	rocky	5	NA	NA
+18670	MovingImage_CN	OuterCove	-58,6866	-62,2444	6/2/1992	19:36:01	Type 2	rocky	22	0	1
+18672	MovingImage_CN	OuterCove	-58,6865	-62,2444	6/2/1992	19:36:03	Type 2	rocky	11	NA	NA
+18756	MovingImage_CN	OuterCove	-58,6862	-62,2444	6/2/1992	19:37:27	Type 4	rocky	12	0	1
+18773	MovingImage_CN	OuterCove	-58,6862	-62,2444	6/2/1992	19:37:44	Type 1	rocky	20	0	1
+18779	MovingImage_CN	OuterCove	-58,6862	-62,2444	6/2/1992	19:37:50	Type 3	rocky	12	NA	NA
+18787	MovingImage_CN	OuterCove	-58,6862	-62,2444	6/2/1992	19:37:58	Type 7	rocky	4	NA	NA
+18900	MovingImage_CN	OuterCove	-58,6859	-62,2443	6/2/1992	19:39:51	Type 4	mix rocky	9	0	1
+19337	MovingImage_CN	OuterCove	-58,6885	-62,2417	6/2/1992	19:47:08	Type 1	mix fine sediment	25	0	0
+19389	MovingImage_CN	OuterCove	-58,6883	-62,2416	6/2/1992	19:48:00	Type 1	fine sediment	3	0	0
+19692	MovingImage_CN	OuterCove	-58,687	-62,2417	6/2/1992	19:53:03	Type 2	rocky	5	1	1
+23047	MovingImage_CN	OuterCove	-58,7104	-62,235	10/2/1992	18:53:15	Type 7	rocky	6	NA	1
+23830	MovingImage_CN	OuterCove	-58,7064	-62,234	10/2/1992	19:06:18	Type 1.1	mix	15	0	NA
+23833	MovingImage_CN	OuterCove	-58,7063	-62,234	10/2/1992	19:06:21	Type 1.1	mix	20	0	NA
+23840	MovingImage_CN	OuterCove	-58,7063	-62,234	10/2/1992	19:06:28	Type 1.1	mix rocky	21	0	1
+24506	MovingImage_CN	OuterCove	-58,7031	-62,2334	10/2/1992	19:17:34	Type 5	mix fine sediment	2	1	0
+24530	MovingImage_CN	OuterCove	-58,703	-62,2334	10/2/1992	19:17:58	Type 5	mix fine sediment	24	1	0
+24631	MovingImage_CN	OuterCove	-58,7029	-62,2333	10/2/1992	19:19:39	Type 7	mix fine sediment	2	1	
+24688	MovingImage_CN	OuterCove	-58,7028	-62,2333	10/2/1992	19:20:36	Type 5	mix fine sediment	21	1	NA
+25152	MovingImage_CN	OuterCove	-58,7007	-62,2327	10/2/1992	19:28:20	Type 4	rocky	16	0	1
+25153	MovingImage_CN	OuterCove	-58,7007	-62,2327	10/2/1992	19:28:21	Type 4	mix rocky	17	NA	1
+25226	MovingImage_CN	OuterCove	-58,7008	-62,2326	10/2/1992	19:29:34	Type 8	mix rocky	22	1	1
+25380	MovingImage_CN	OuterCove	-58,7003	-62,2325	10/2/1992	19:32:08	Type 7	mix rocky	6	NA	1
+41613	MovingImage_CN	InnerCove	-58,6904	-62,236	17/2/1992	19:26:52	Type 1.2	fine sediment	13	NA	0
+44298	MovingImage_CN	InnerCove	-58,6977	-62,24	17/2/1992	20:11:37	Type 1	fine sediment	17	1	0
+59777	StillImage_CL	Island	-58,6437839	-62,2250475	30/12/1993	na	Type 1.2	rocky	18	1	1
+59778	StillImage_CL	Island	-58,6437653	-62,2250404	30/12/1993	na	Type 1.2	rocky	26	1	1
+59779	StillImage_CL	Island	-58,6437462	-62,2250335	30/12/1993	na	Type 1.2	rocky	25	1	1
+59780	StillImage_CL	Island	-58,6437267	-62,2250269	30/12/1993	na	Type 1.2	rocky	24	1	1
+59781	StillImage_CL	Island	-58,6437076	-62,2250201	30/12/1993	na	Type 1.2	rocky	13	1	1
+59782	StillImage_CL	Island	-58,6436888	-62,225013	30/12/1993	na	Type 1.2	rocky	16	1	1
+59783	StillImage_CL	Island	-58,6436695	-62,2250063	5/12/1993	na	Type 1.2	rocky	21	1	1
+59784	StillImage_CL	Island	-58,6436501	-62,2249996	5/12/1993	na	Type 1.3	rocky	21	1	1
+59785	StillImage_CL	Island	-58,6436305	-62,2249931	5/12/1993	na	Type 1.3	rocky	14	1	1
+59786	StillImage_CL	Island	-58,6436108	-62,2249866	5/12/1993	na	Type 1.3	rocky	15	1	1
+59787	StillImage_CL	Island	-58,6435911	-62,2249801	5/12/1993	na	Type 1.2	rocky	12	1	1
+59788	StillImage_CL	Island	-58,6435713	-62,2249737	5/12/1993	na	Type 1.2	mix rocky	14	1	1
+59789	StillImage_CL	Island	-58,6435512	-62,2249676	5/12/1993	na	Type 1.2	mix rocky	18	1	1
+59790	StillImage_CL	Island	-58,6435311	-62,2249614	5/12/1993	na	Type 1.2	mix rocky	22	1	1
+59791	StillImage_CL	Island	-58,6435108	-62,2249553	5/12/1993	na	Type 1.3	mix rocky	11	1	1
+59792	StillImage_CL	Island	-58,6434907	-62,2249491	5/12/1993	na	Type 1.2	fine sediment	12	1	1
+59793	StillImage_CL	Island	-58,6434705	-62,2249429	5/12/1993	na	Type 1.2	fine sediment	12	1	1
+59794	StillImage_CL	Island	-58,6434503	-62,2249369	5/12/1993	na	Type 1.3	fine sediment	18	1	1
+59795	StillImage_CL	Island	-58,6434298	-62,2249309	5/12/1993	na	Type 1.2	fine sediment	19	1	1
+59796	StillImage_CL	Island	-58,6434092	-62,2249251	5/12/1993	na	Type 1.2	fine sediment	13	1	1
+59797	StillImage_CL	Island	-58,6433885	-62,2249194	5/12/1993	na	Type 1.3	rocky	18	1	1
+59798	StillImage_CL	Island	-58,6433677	-62,2249136	5/12/1993	na	Type 1.2	rocky	18	1	1
+59799	StillImage_CL	Island	-58,643349	-62,2249066	5/12/1993	na	Type 1.2	rocky	21	1	1
+59800	StillImage_CL	Island	-58,6433309	-62,2248991	5/12/1993	na	Type 1.2	rocky	21	1	1
