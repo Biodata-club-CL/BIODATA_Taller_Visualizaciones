@@ -1,0 +1,82 @@
+FID	basisOfRecord	occurenceID	site	x	y	day	time	community	typ_comm	sediment_t	Richness	Lat.elli	Algae
+0	MovingImage_CN	BRM_video2016_0	OuterCove	-58,6866	-62,2441	18/1/2016	12:54:09	uncoverage	Type 1	fine sediment, sand or silt	20	NA	1
+15	MovingImage_CN	BRM_video2016_15	OuterCove	-58,6866	-62,2441	18/1/2016	12:54:24	uncoverage	Type 1	mix fine sediment	10	NA	1
+19	MovingImage_CN	BRM_video2016_19	OuterCove	-58,6866	-62,2441	18/1/2016	12:54:28	red algae with uncoverage	Type 2	mix rocky	13	0	1
+468	MovingImage_CN	BRM_video2016_468	OuterCove	-58,6868	-62,2441	18/1/2016	13:01:57	mix community 2	Type 6	rocky	6	NA	1
+469	MovingImage_CN	BRM_video2016_469	OuterCove	-58,6868	-62,2441	18/1/2016	13:01:58	mix community 2	Type 6	rocky	2	NA	1
+493	MovingImage_CN	BRM_video2016_493	OuterCove	-58,6868	-62,244	18/1/2016	13:02:22	mix community 1	Type 5	rocky	23	NA	1
+496	MovingImage_CN	BRM_video2016_496	OuterCove	-58,6868	-62,244	18/1/2016	13:02:25	red algae with uncoverage	Type 2	rocky	3	NA	1
+1056	MovingImage_CN	BRM_video2016_1056	OuterCove	-58,687	-62,244	18/1/2016	13:11:45	mix community 2	Type 6	rocky	5	NA	1
+1554	MovingImage_CN	BRM_video2016_1554	OuterCove	-58,6872	-62,244	18/1/2016	13:20:03	mix community 1	Type 5	mix rocky	25	0	1
+1609	MovingImage_CN	BRM_video2016_1609	InnerCove	-58,6872	-62,244	18/1/2016	13:20:58	No benthos DATA AVAILABLE	NA.0	fine sediment	6	NA	0
+1878	MovingImage_CN	BRM_video2016_1878	InnerCove	-58,6874	-62,244	18/1/2016	13:25:27	uncoverage with diatoms	Type 1.1	fine sediment	19	NA	0
+1884	MovingImage_CN	BRM_video2016_1884	InnerCove	-58,6874	-62,244	18/1/2016	13:25:33	uncoverage with diatoms	Type 1.1	fine sediment	9	1	0
+7644	MovingImage_CN	BRM_video2016_7644	InnerCove	-58,6687	-62,2278	27/1/2016	19:06:15	uncoverage with diatoms	Type 1.1	fine sediment	18	1	0
+7647	MovingImage_CN	BRM_video2016_7647	InnerCove	-58,6687	-62,2278	27/1/2016	19:06:18	uncoverage with diatoms	Type 1.1	fine sediment	8	1	0
+7845	MovingImage_CN	BRM_video2016_7845	InnerCove	-58,6678	-62,228	27/1/2016	19:09:36	uncoverage with diatoms	Type 1.1	fine sediment	8	0	NA
+7940	MovingImage_CN	BRM_video2016_7940	InnerCove	-58,6672	-62,2279	27/1/2016	19:11:11	uncoverage with diatoms	Type 1.1	fine sediment	8	NA	NA
+7969	MovingImage_CN	BRM_video2016_7969	InnerCove	-58,667	-62,2278	27/1/2016	19:11:40	uncoverage with diatoms	Type 1.1	fine sediment	12	1	NA
+8191	MovingImage_CN	BRM_video2016_8191	InnerCove	-58,6648	-62,2272	27/1/2016	19:15:22	uncoverage with diatoms	Type 1.1	fine sediment	15	0	0
+8193	MovingImage_CN	BRM_video2016_8193	InnerCove	-58,6648	-62,2272	27/1/2016	19:15:24	uncoverage with diatoms	Type 1.1	fine sediment	5	0	0
+8390	MovingImage_CN	BRM_video2016_8390	InnerCove	-58,663	-62,2267	27/1/2016	19:18:41	patchy ascidians/sponge	Type 1.2	fine sediment	3	NA	0
+9462	MovingImage_CN	BRM_video2016_9462	InnerCove	-58,6548	-62,2284	27/1/2016	19:36:33	patchy ascidians/sponge	Type 1.2	fine sediment	17	1	0
+9463	MovingImage_CN	BRM_video2016_9463	InnerCove	-58,6548	-62,2284	27/1/2016	19:36:34	patchy ascidians/sponge	Type 1.2	fine sediment	15	1	0
+9466	MovingImage_CN	BRM_video2016_9466	InnerCove	-58,6548	-62,2284	27/1/2016	19:36:37	uncoverage	Type 1	fine sediment	6	0	0
+9696	MovingImage_CN	BRM_video2016_9696	InnerCove	-58,6536	-62,2286	27/1/2016	19:40:27	patchy ascidians/sponge	Type 1.2	fine sediment	17	0	0
+17446	MovingImage_CN	BRM_video2016_17446	OuterCove	-58,6866	-62,2464	6/2/2016	19:15:37	red algae with uncoverage	Type 2	rocky	6	NA	NA
+17449	MovingImage_CN	BRM_video2016_17449	OuterCove	-58,6866	-62,2464	6/2/2016	19:15:40	mix community 1	Type 5	rocky	6	NA	NA
+17452	MovingImage_CN	BRM_video2016_17452	OuterCove	-58,6866	-62,2464	6/2/2016	19:15:43	mix community 1	Type 5	rocky	11	0	1
+17456	MovingImage_CN	BRM_video2016_17456	OuterCove	-58,6866	-62,2464	6/2/2016	19:15:47	mix community 1	Type 5	rocky	18	0	1
+17469	MovingImage_CN	BRM_video2016_17469	OuterCove	-58,6865	-62,2464	6/2/2016	19:16:00	mix community 1	Type 5	rocky	7	NA	NA
+17496	MovingImage_CN	BRM_video2016_17496	OuterCove	-58,6864	-62,2464	6/2/2016	19:16:27	mix community 1	Type 5	rocky	14	NA	NA
+18573	MovingImage_CN	BRM_video2016_18573	OuterCove	-58,687	-62,2443	6/2/2016	19:34:24	brown macroalgae with uncoverage	Type 3	rocky	25	NA	NA
+18622	MovingImage_CN	BRM_video2016_18622	OuterCove	-58,6867	-62,2443	6/2/2016	19:35:13	macroalgae with uncoverage	Type 4	rocky	6	0	1
+18659	MovingImage_CN	BRM_video2016_18659	OuterCove	-58,6866	-62,2444	6/2/2016	19:35:50	red algae with uncoverage	Type 2	rocky	5	NA	NA
+18670	MovingImage_CN	BRM_video2016_18670	OuterCove	-58,6866	-62,2444	6/2/2016	19:36:01	red algae with uncoverage	Type 2	rocky	22	0	1
+18672	MovingImage_CN	BRM_video2016_18672	OuterCove	-58,6865	-62,2444	6/2/2016	19:36:03	red algae with uncoverage	Type 2	rocky	11	NA	NA
+18756	MovingImage_CN	BRM_video2016_18756	OuterCove	-58,6862	-62,2444	6/2/2016	19:37:27	macroalgae with uncoverage	Type 4	rocky	12	0	1
+18773	MovingImage_CN	BRM_video2016_18773	OuterCove	-58,6862	-62,2444	6/2/2016	19:37:44	uncoverage	Type 1	rocky	20	0	1
+18779	MovingImage_CN	BRM_video2016_18779	OuterCove	-58,6862	-62,2444	6/2/2016	19:37:50	brown macroalgae with uncoverage	Type 3	rocky	12	NA	NA
+18787	MovingImage_CN	BRM_video2016_18787	OuterCove	-58,6862	-62,2444	6/2/2016	19:37:58	brown macroalgae all covered	Type 7	rocky	4	NA	NA
+18900	MovingImage_CN	BRM_video2016_18900	OuterCove	-58,6859	-62,2443	6/2/2016	19:39:51	macroalgae with uncoverage	Type 4	mix rocky	9	0	1
+19337	MovingImage_CN	BRM_video2016_19337	OuterCove	-58,6885	-62,2417	6/2/2016	19:47:08	uncoverage	Type 1	mix fine sediment	25	0	0
+19389	MovingImage_CN	BRM_video2016_19389	OuterCove	-58,6883	-62,2416	6/2/2016	19:48:00	uncoverage	Type 1	fine sediment	3	0	0
+19692	MovingImage_CN	BRM_video2016_19692	OuterCove	-58,687	-62,2417	6/2/2016	19:53:03	red algae with uncoverage	Type 2	rocky	5	1	1
+23047	MovingImage_CN	BRM_video2016_23047	OuterCove	-58,7104	-62,235	10/2/2016	18:53:15	brown macroalgae all covered	Type 7	rocky	6	NA	1
+23830	MovingImage_CN	BRM_video2016_23830	OuterCove	-58,7064	-62,234	10/2/2016	19:06:18	uncoverage with diatoms	Type 1.1	mix	15	0	NA
+23833	MovingImage_CN	BRM_video2016_23833	OuterCove	-58,7063	-62,234	10/2/2016	19:06:21	uncoverage with diatoms	Type 1.1	mix	20	0	NA
+23840	MovingImage_CN	BRM_video2016_23840	OuterCove	-58,7063	-62,234	10/2/2016	19:06:28	uncoverage with diatoms	Type 1.1	mix rocky	21	0	1
+24506	MovingImage_CN	BRM_video2016_24506	OuterCove	-58,7031	-62,2334	10/2/2016	19:17:34	mix community 1	Type 5	mix fine sediment	2	1	0
+24530	MovingImage_CN	BRM_video2016_24530	OuterCove	-58,703	-62,2334	10/2/2016	19:17:58	mix community 1	Type 5	mix fine sediment	24	1	0
+24631	MovingImage_CN	BRM_video2016_24631	OuterCove	-58,7029	-62,2333	10/2/2016	19:19:39	brown macroalgae all covered	Type 7	mix fine sediment	2	1	
+24688	MovingImage_CN	BRM_video2016_24688	OuterCove	-58,7028	-62,2333	10/2/2016	19:20:36	mix community 1	Type 5	mix fine sediment	21	1	NA
+25152	MovingImage_CN	BRM_video2016_25152	OuterCove	-58,7007	-62,2327	10/2/2016	19:28:20	macroalgae with uncoverage	Type 4	rocky	16	0	1
+25153	MovingImage_CN	BRM_video2016_25153	OuterCove	-58,7007	-62,2327	10/2/2016	19:28:21	macroalgae with uncoverage	Type 4	mix rocky	17	NA	1
+25226	MovingImage_CN	BRM_video2016_25226	OuterCove	-58,7008	-62,2326	10/2/2016	19:29:34	complex community mix	Type 8	mix rocky	22	1	1
+25380	MovingImage_CN	BRM_video2016_25380	OuterCove	-58,7003	-62,2325	10/2/2016	19:32:08	brown macroalgae all covered	Type 7	mix rocky	6	NA	1
+41613	MovingImage_CN	BRM_video2016_41613	InnerCove	-58,6904	-62,236	17/2/2016	19:26:52	patchy ascidians/sponge	Type 1.2	fine sediment	13	NA	0
+44298	MovingImage_CN	BRM_video2016_44298	InnerCove	-58,6977	-62,24	17/2/2016	20:11:37	uncoverage	Type 1	fine sediment	17	1	0
+59777	StillImage_CL	IDEA_2010_ISLA_T4_3867	Island	-58,6437839	-62,2250475	30/12/2009	na	patchy ascidians/sponge	Type 1.2	fine sediment	18	1	1
+59778	StillImage_CL	IDEA_2010_ISLA_T4_3868	Island	-58,6437653	-62,2250404	30/12/2009	na	patchy ascidians/sponge	Type 1.2	fine sediment	26	1	1
+59779	StillImage_CL	IDEA_2010_ISLA_T4_3870	Island	-58,6437462	-62,2250335	30/12/2009	na	patchy ascidians/sponge	Type 1.2	fine sediment	25	1	1
+59780	StillImage_CL	IDEA_2010_ISLA_T4_3872	Island	-58,6437267	-62,2250269	30/12/2009	na	patchy ascidians/sponge	Type 1.2	fine sediment	24	1	1
+59781	StillImage_CL	IDEA_2010_ISLA_T4_3873	Island	-58,6437076	-62,2250201	30/12/2009	na	patchy ascidians/sponge	Type 1.2	fine sediment	13	1	1
+59782	StillImage_CL	IDEA_2010_ISLA_T4_3874	Island	-58,6436888	-62,225013	30/12/2009	na	patchy ascidians/sponge	Type 1.2	fine sediment	16	1	1
+59783	StillImage_CL	IDEA_2010_ISLA_T4_3878	Island	-58,6436695	-62,2250063	2/1/2010	na	patchy ascidians/sponge	Type 1.2	fine sediment	21	1	1
+59784	StillImage_CL	IDEA_2010_ISLA_T4_3879	Island	-58,6436501	-62,2249996	2/1/2010	na	complex community	Type 1.3	fine sediment	21	1	1
+59785	StillImage_CL	IDEA_2010_ISLA_T4_3880	Island	-58,6436305	-62,2249931	2/1/2010	na	complex community	Type 1.3	fine sediment	14	1	1
+59786	StillImage_CL	IDEA_2010_ISLA_T4_3881	Island	-58,6436108	-62,2249866	2/1/2010	na	complex community	Type 1.3	fine sediment	15	1	1
+59787	StillImage_CL	IDEA_2010_ISLA_T4_3883	Island	-58,6435911	-62,2249801	2/1/2010	na	patchy ascidians/sponge	Type 1.2	fine sediment	12	1	1
+59788	StillImage_CL	IDEA_2010_ISLA_T4_3884	Island	-58,6435713	-62,2249737	2/1/2010	na	patchy ascidians/sponge	Type 1.2	fine sediment	14	1	1
+59789	StillImage_CL	IDEA_2010_ISLA_T4_3886	Island	-58,6435512	-62,2249676	2/1/2010	na	patchy ascidians/sponge	Type 1.2	fine sediment	18	1	1
+59790	StillImage_CL	IDEA_2010_ISLA_T4_3889	Island	-58,6435311	-62,2249614	2/1/2010	na	patchy ascidians/sponge	Type 1.2	fine sediment	22	1	1
+59791	StillImage_CL	IDEA_2010_ISLA_T4_3890	Island	-58,6435108	-62,2249553	2/1/2010	na	complex community	Type 1.3	fine sediment	11	1	1
+59792	StillImage_CL	IDEA_2010_ISLA_T4_3892	Island	-58,6434907	-62,2249491	2/1/2010	na	patchy ascidians/sponge	Type 1.2	fine sediment	12	1	1
+59793	StillImage_CL	IDEA_2010_ISLA_T4_3893	Island	-58,6434705	-62,2249429	2/1/2010	na	patchy ascidians/sponge	Type 1.2	fine sediment	12	1	1
+59794	StillImage_CL	IDEA_2010_ISLA_T4_3894	Island	-58,6434503	-62,2249369	2/1/2010	na	complex community	Type 1.3	fine sediment	18	1	1
+59795	StillImage_CL	IDEA_2010_ISLA_T4_3895	Island	-58,6434298	-62,2249309	2/1/2010	na	patchy ascidians/sponge	Type 1.2	fine sediment	19	1	1
+59796	StillImage_CL	IDEA_2010_ISLA_T4_3896	Island	-58,6434092	-62,2249251	2/1/2010	na	patchy ascidians/sponge	Type 1.2	fine sediment	13	1	1
+59797	StillImage_CL	IDEA_2010_ISLA_T4_3897	Island	-58,6433885	-62,2249194	2/1/2010	na	complex community	Type 1.3	fine sediment	18	1	1
+59798	StillImage_CL	IDEA_2010_ISLA_T4_3898	Island	-58,6433677	-62,2249136	2/1/2010	na	patchy ascidians/sponge	Type 1.2	fine sediment	18	1	1
+59799	StillImage_CL	IDEA_2010_ISLA_T4_3900	Island	-58,643349	-62,2249066	2/1/2010	na	patchy ascidians/sponge	Type 1.2	fine sediment	21	1	1
+59800	StillImage_CL	IDEA_2010_ISLA_T4_3901	Island	-58,6433309	-62,2248991	2/1/2010	na	patchy ascidians/sponge	Type 1.2	fine sediment	21	1	1
