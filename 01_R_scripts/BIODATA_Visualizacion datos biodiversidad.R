@@ -2,7 +2,7 @@
 ###
 ###    Visualización de indicadores de biodiversidad
 ###    Autores script: Daniel Valdés y Dra. Camila Neder
-###                 ?ltimos cambios: 2024-Octubre-24
+###                 últimos cambios: 2024-Noviembre-07
 ###                              R-4.4.1
 ###
 ################################################################################
@@ -37,12 +37,12 @@ data = mtcars %>%
          Model= rownames(mtcars))
 head(data)
 
-# creando un gr?fico de burbujas con peso en el eje x y millas por gall?n en eje y (distancia por litro de nafta)
-# el tama?o de cada punto es dictado por horsepower
+# creando un gráfico de burbujas con peso en el eje x y millas por gallón en eje y (distancia por litro de nafta)
+# el tamaño de cada punto es dictado por horsepower
 plot1 = data %>% ggplot(aes(x= wt, y= mpg, size= hp)) +
   geom_point(alpha= .5)
 plot1
-# gr?fico de burbujas con colores agregados en base a los cilindros de cada auto
+# gráfico de burbujas con colores agregados en base a los cilindros de cada auto
 plot2 = data %>% ggplot(aes(x= wt, y= mpg, size= hp,
                             color= cyl, label= Model)) + # label no parece afectar el grafico
   geom_point(alpha= .5) +
@@ -53,11 +53,11 @@ plot2
 #######################################
 ## B. CASO ESTUDIO MERLUZA EUROPEA
 #######################################
-# Gr?fico de burbuja usando data de gbif de Merluccius merluccius
+# Gráfico de burbuja usando data de gbif de Merluccius merluccius
 # Referencia
 # GBIF.org (13 October 2024) GBIF Occurrence Download https://doi.org/10.15468/dl.seg7f8
 # 
-# El proceso es similar, solo que esta vez se filtrar? primero el dataframe de ocurrencias porque hay muchas columnas que no tienen datos ?tiles para la visualizaci?n que queremos hacer
+# El proceso es similar, solo que esta vez se filtrará primero el dataframe de ocurrencias porque hay muchas columnas que no tienen datos útiles para la visualización que queremos hacer
 # 
 # Queremos
 # Coordenadas
@@ -76,7 +76,7 @@ library(tidyverse)
 install.packages("maps")
 library(maps)
 
-# designando directorio de trabajo donde habr? que subir el csv
+# designando directorio de trabajo donde habrá que subir el csv
 # correr una vez
 setwd("sample_data")
 
@@ -114,7 +114,7 @@ map_merl = map_merl[map_merl$lat >= -25, ]
 map_merl = map_merl[map_merl$lat <= 80, ]
 
 # dibujando mapa
-options(repr.plot.width=15, repr.plot.height=8) #regular tama?o del mapa
+options(repr.plot.width=15, repr.plot.height=8) #regular tamaño del mapa
 plot_merl = ggplot(data= map_merl, aes(x= long, y= lat, group= group)) +
   geom_polygon(col= "white") +
   geom_point(data= merluccius, aes(x= lon, y= lat, group= group,
@@ -129,11 +129,11 @@ setwd("C:/Users/camu_/Downloads/BIODATA")
 path_output <-"C:/Users/camu_/Downloads/BIODATA/03_R_output"
 
 #######################################
-## c. CASO ESTUDIO ESTUDIO ANT?RTICO: Caleta Potter
+## c. CASO ESTUDIO ESTUDIO ANTÁRTICO: Caleta Potter
 #######################################
 
 ###############################################################################
-### 1. Cargar datos biol?gicos
+### 1. Cargar datos biológicos
 ###############################################################################
 bio.data <- read.delim2("C:/Users/camu_/Downloads/BIODATA/02_original_data/02_bio_data/test_Occurrence_Potter_CNeder.txt",
                           header=TRUE)
@@ -143,7 +143,7 @@ View(bio.data)
 # ### 2. Seleccionar la especie con la que se quiere trabajar
 # ################################################################################
 {
-  chosen_col <- c() # crea una lista vac?a para la columna elegida
+  chosen_col <- c() # crea una lista vacía para la columna elegida
   answer <- "no"
   while (answer=="no"){
     svDialogs::dlgMessage("Choose the species you want to work with")$res
@@ -173,20 +173,23 @@ bio.data1 <- bio.data1[!is.na(bio.data1$species), ]
 ################################################################################
 
 # Convertir los daatos biológicos en un objeto espacial (sf)
-# Aqu? la proyecci?n es WGS 84 (EPSG4326)
-# porque las coordenadas de x e y est?n en grados decimales (= longitude and latitude)
+# Aquí la proyección es WGS 84 (EPSG4326)
+# porque las coordenadas de x e y están en grados decimales (= longitude and latitude)
 sf.bio.data = sf::st_as_sf(bio.data1, coords=c("x","y"), crs= "+proj=longlat +datum=WGS84 +no_defs" )
 
 shape_01 <- sf.bio.data
 rm(sf.bio.data)
 
 ################################################################################
-###  5. Plot de datos biol?gicos sobre variable ambiental
+###  5. Plot de datos biológicos sobre variable ambiental
 ################################################################################
 #### graficar ocurrencias sobre mapa de profundidad
 
 library(stars)
 ###Cargar variable ambiental Tiff
+SPM <-stars::read_stars(paste("C:/Users/camu_/Downloads/BIODATA/02_original_data/01_raster_data", "spm_med.tif", sep="/"))
+print(SPM)
+
 depth <- stars::read_stars(paste("C:/Users/camu_/Downloads/BIODATA/02_original_data/01_raster_data", "bathy.tif", sep="/"))
 print(depth)
 
@@ -217,7 +220,7 @@ Pre_Abs_plot<-tmap::tm_shape(depth) +
    rm(shape_01)   
 
 ################################################################################
-###  6. Plot de riqueza por sitios o ?reas de muestreo
+###  6. Plot de riqueza por sitios o Áreas de muestreo
 ################################################################################
 # 
 # eliminar las filas con valores NA en la columna de la especie seleccionada
@@ -234,7 +237,7 @@ ggplot(bio.data2, aes(x = site, y = Richness, fill = as.factor(site))) +
   theme(legend.position = "none")
 
 ################################################################################
-###  7. Plot de ?rea y riqueza por punto
+###  7. Plot de Área y riqueza por punto
 ################################################################################
 #
 bio.data3 <- bio.data[!is.na(bio.data$site), ] # eliminar las filas con valores NA en la columna de la especie seleccionada
@@ -265,7 +268,7 @@ tmap::tmap_save(Locations_plot, filename = file.path(path_output, "Puntos de riq
 
 
 #######################################
-## D. BAR PLOT: ABUNDANCIAS RELATIVAS - OTU Unidad Taxon?mica Operable
+## D. BAR PLOT: ABUNDANCIAS RELATIVAS - OTU Unidad Taxonómica Operable
 #######################################
 ################################################################################
 ###  1. Datos desde GitHub
