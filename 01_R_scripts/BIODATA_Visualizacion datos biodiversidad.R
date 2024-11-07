@@ -197,9 +197,10 @@ print(depth)
 shape_01$species <- factor(shape_01$species, levels = c("0", "1"), labels = c("Abscence", "Presence"))
 
 library(tmap)
+#https://r-tmap.github.io/tmap-book/visual-variables.html
 
-Pre_Abs_plot<-tmap::tm_shape(depth) +
-    tm_raster(palette = "Blues", n=7,
+Pre_Abs_plot<-tmap::tm_shape(SPM) +
+    tm_raster(palette = "YlOrBr", n=7, #Blues for bathymetry
               style = "pretty") +
     tm_graticules() +
     # tm_layout(legend.show = FALSE) +
