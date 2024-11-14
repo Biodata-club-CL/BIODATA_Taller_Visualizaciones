@@ -1,13 +1,12 @@
 ----
 Club programación BIODATA --- Visualización de datos de biodiversidad 2024
-  Dra. Camila Neder
-  Daniel Valdés
+Autores: Dra. Camila Neder &  Daniel Valdés
 ------
 
- _Instituto de Ecología y Biodiversidad, Chile (IEB)_
-_Instituto de Biodiversidad de Ecosistemas Antárticos y Subantárticos, Chile (BASE)_
-_Instituto de Biodiversidad y Ecología Animal, Argentina (IDEA/CONICET-UNC)_
-_Universidad Nacional de Córdoba, Argentina (UNC)_
+ _Instituto de Ecología y Biodiversidad, Chile (IEB)_; 
+_Instituto de Biodiversidad de Ecosistemas Antárticos y Subantárticos, Chile (BASE)_;
+_Instituto de Biodiversidad y Ecología Animal, Argentina (IDEA/CONICET-UNC)_;
+_Universidad Nacional de Córdoba, Argentina (UNC)_;
 _Universidad de Concepción, Chile (UdeC)_
 
 
