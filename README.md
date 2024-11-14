@@ -1,14 +1,14 @@
 ----
 Club programación BIODATA --- Visualización de datos de biodiversidad 2024
-Dra. Camila Neder
-Daniel Valdés
+  Dra. Camila Neder
+  Daniel Valdés
 ------
 
-- Instituto de Ecología y Biodiversidad, Chile (IEB)
-- Instituto de Biodiversidad de Ecosistemas Antárticos y Subantárticos, Chile (BASE)
-- Instituto de Biodiversidad y Ecología Animal, Argentina (IDEA/CONICET-UNC)
-- Universidad Nacional de Córdoba, Argentina (UNC)
-- Universidad de Concepción, Chile (UdeC)
+ _Instituto de Ecología y Biodiversidad, Chile (IEB)_
+_Instituto de Biodiversidad de Ecosistemas Antárticos y Subantárticos, Chile (BASE)_
+_Instituto de Biodiversidad y Ecología Animal, Argentina (IDEA/CONICET-UNC)_
+_Universidad Nacional de Córdoba, Argentina (UNC)_
+_Universidad de Concepción, Chile (UdeC)_
 
 
 Ejemplos de datos teóricos biológicos con fines pedagógicos para la visualización espacial de abundancia, presencia/ausencia.
