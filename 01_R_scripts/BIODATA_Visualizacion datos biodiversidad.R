@@ -79,7 +79,7 @@ download.file(url_merluccius, destfile= "data_merluccius.txt")
 
 # leyendo csv
 merluccius = read.csv("data_merluccius.txt", sep= "\t", header= T)
-head(merluccius)
+head(colnames(merluccius))
 
 # filtrando data
 merluccius = merluccius %>% filter(!is.na(merluccius$individualCount))
@@ -100,7 +100,7 @@ map_merl = map_merl[map_merl$lat >= -25, ]
 map_merl = map_merl[map_merl$lat <= 80, ]
 
 # dibujando mapa
-options(repr.plot.width=15, repr.plot.height=8) #regular tamaño del mapa
+#options(repr.plot.width=15, repr.plot.height=8) #regular tamaño del mapa
 plot_merl = ggplot(data= map_merl, aes(x= long, y= lat, group= group)) +
   geom_polygon(col= "white") +
   geom_point(data= merluccius, aes(x= lon, y= lat, group= group,
@@ -111,8 +111,8 @@ plot_merl
 
 
 ####DIRECTORIO Definir path para distintas carpetas dentro
-setwd("C:/Users/camu_/Downloads/BIODATA")
-path_output <-"C:/Users/camu_/Downloads/BIODATA/03_R_output"
+setwd("change_here_your_path/BIODATA_Taller_Visualizaciones")
+path_output <-"../03_R_output"
 
 #######################################
 ## c. CASO ESTUDIO ESTUDIO ANTÁRTICO: Caleta Potter
@@ -121,7 +121,7 @@ path_output <-"C:/Users/camu_/Downloads/BIODATA/03_R_output"
 ###############################################################################
 ### 1. Cargar datos biológicos
 ###############################################################################
-bio.data <- read.delim2("C:/Users/camu_/Downloads/BIODATA/02_original_data/02_bio_data/test_Occurrence_Potter_CNeder.txt",
+bio.data <- read.delim2("../02_original_data/02_bio_data/example_Occurrence_fjord_CNeder.txt",
                           header=TRUE)
 View(bio.data)
 
@@ -173,10 +173,10 @@ rm(sf.bio.data)
 
 library(stars)
 ###Cargar variable ambiental Tiff
-SPM <-stars::read_stars(paste("C:/Users/camu_/Downloads/BIODATA/02_original_data/01_raster_data", "spm_med.tif", sep="/"))
+SPM <-stars::read_stars(paste("../02_original_data/01_raster_data", "spm_med.tif", sep="/"))
 print(SPM)
 
-depth <- stars::read_stars(paste("C:/Users/camu_/Downloads/BIODATA/02_original_data/01_raster_data", "bathy.tif", sep="/"))
+depth <- stars::read_stars(paste("../02_original_data/01_raster_data", "bathy.tif", sep="/"))
 print(depth)
 
 ### Cambiar datos de  0 y 1 a ausencia y presencia
@@ -185,7 +185,7 @@ shape_01$species <- factor(shape_01$species, levels = c("0", "1"), labels = c("A
 library(tmap)
 #https://r-tmap.github.io/tmap-book/visual-variables.html
 
-Pre_Abs_plot<-tmap::tm_shape(SPM) +
+Pre_Abs_plot<-tmap::tm_shape(SPM) + #Se puede cambiar por otro tiff file como "depth"
     tm_raster(palette = "YlOrBr", n=7, #Blues for bathymetry
               style = "pretty") +
     tm_graticules() +
@@ -202,7 +202,7 @@ Pre_Abs_plot<-tmap::tm_shape(SPM) +
    Pre_Abs_plot
 
    # Guardar el mapa como un archivo PNG
-   tmap::tmap_save(Pre_Abs_plot, filename = file.path(path_output, "Pre_Abs_plot.png"), width = 10, height = 8, units = "in", dpi = 300)
+   tmap::tmap_save(Pre_Abs_plot, filename = file.path(path_output, "Pre_Abs_plot_example.png"), width = 10, height = 8, units = "in", dpi = 300)
 
    rm(shape_01)   
 
@@ -251,33 +251,15 @@ Locations_plot<-tmap::tm_shape(depth) +
           palette = c("InnerCove" = "chocolate4", "Island" = "yellow", "OuterCove" = "cadetblue3" )) #  para colores determinados indicando el nombre del sitio exacto
 
 Locations_plot
-tmap::tmap_save(Locations_plot, filename = file.path(path_output, "Puntos de riqueza por área.png"), width = 10, height = 8, units = "in", dpi = 300)
+tmap::tmap_save(Locations_plot, filename = file.path(path_output, "Puntos de riqueza por área_example.png"), width = 10, height = 8, units = "in", dpi = 300)
 
 
 #######################################
-## D. BAR PLOT: ABUNDANCIAS RELATIVAS - OTU Unidad Taxonómica Operable
+## D. BAR PLOT: ABUNDANCIAS RELATIVAS - Caso práctico desembocadura Bío Bío
 #######################################
 ################################################################################
 ###  1. Datos desde GitHub
 ################################################################################
-urls_barplots = c(
-  "https://github.com/surh/scip_barplot/raw/refs/heads/master/data/rhizo/otu_table.tsv",
-  "https://github.com/surh/scip_barplot/raw/refs/heads/master/data/rhizo/otu_taxonomy.tsv",
-  "https://github.com/surh/scip_barplot/raw/refs/heads/master/data/rhizo/sample_metadata.tsv"
-)
-# loop a traves de los links
-for (i in urls_barplots) {
-  # consigue el ultimo item de separar los links por cada "/"
-  file_name = str_split(i, "/")[[1]][12]
-  # descargar el contenido del link y nombrarlo
-  download.file(i, destfile= file_name)
-}
 
-# leyendo data de otus (Cada OTU es un organismo que proviene del mismo origen, 
-# cada columna es una muestra, y el valor en cada fila es la abundancia de 
-# dicho OTU)
-otu_data = read_tsv("otu_table.tsv",
-                    col_types = cols(otu_id = col_character (),
-                                     .default = col_number()))
 
-head(otu_data)
+## ¡GRACIAS, NOS VEMOS EN EL PRÓXIMO TALLER!
