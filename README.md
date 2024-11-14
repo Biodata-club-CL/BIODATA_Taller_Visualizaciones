@@ -4,11 +4,11 @@ Dra. Camila Neder
 Daniel Valdés
 ------
 
-Instituto de Ecología y Biodiversidad, Chile (IEB)
-Instituto de Biodiversidad de Ecosistemas Antárticos y Subantárticos, Chile (BASE)
-Instituto de Biodiversidad y Ecología Animal, Argentina (IDEA/CONICET-UNC)
-Universidad Nacional de Córdoba, Argentina (UNC)
-Universidad de Concepción, Chile (UdeC)
+- Instituto de Ecología y Biodiversidad, Chile (IEB)
+- Instituto de Biodiversidad de Ecosistemas Antárticos y Subantárticos, Chile (BASE)
+- Instituto de Biodiversidad y Ecología Animal, Argentina (IDEA/CONICET-UNC)
+- Universidad Nacional de Córdoba, Argentina (UNC)
+- Universidad de Concepción, Chile (UdeC)
 
 
 Ejemplos de datos teóricos biológicos con fines pedagógicos para la visualización espacial de abundancia, presencia/ausencia.
