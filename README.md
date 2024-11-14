@@ -17,3 +17,6 @@ Material suplementario & Ideas en tutoriales de video externos:
 * Graficos de barra de abundancia relativa: https://youtu.be/siIoupAnILk?feature=shared
 * Creación mapas y mapeo de la misma: https://youtu.be/AgWgPSZ7Gp0?feature=shared
 * Otros materiales extra: https://www.datawim.com/post/creating-professional-bivariate-maps-in-r/
+
+
+_para Colab usar https://colab.research.google.com/drive/1J8Xl-lMBk-jBeEzzp35JCLgQ0LbTAAvb?usp=sharing#scrollTo=iYczLvqHrkHG_
