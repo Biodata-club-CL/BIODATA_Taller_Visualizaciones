@@ -6,6 +6,7 @@
 ###                              R-4.4.1
 ###
 ################################################################################
+# For colab use: https://colab.research.google.com/drive/1J8Xl-lMBk-jBeEzzp35JCLgQ0LbTAAvb?usp=sharing#scrollTo=iYczLvqHrkHG
 
 #Si el paquete está instalado, se cargaran. Sino, se intalarán de CRAN y luego load
 packages <- c("tidyverse",
@@ -65,25 +66,10 @@ plot2
 # 
 # Cantidad de especimenes observados
 
-# designando directorio de trabajo donde habra que subir el csv
-# correr una vez
-setwd("sample_data")
-
 # dependencias
 library(ggplot2)
 library(tidyverse)
 # correr una vezd
-install.packages("maps")
-library(maps)
-
-# designando directorio de trabajo donde habrá que subir el csv
-# correr una vez
-setwd("sample_data")
-
-# dependencias
-library(ggplot2)
-library(tidyverse)
-# correr una vez
 install.packages("maps")
 library(maps)
 
