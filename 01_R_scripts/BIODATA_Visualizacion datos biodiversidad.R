@@ -260,7 +260,6 @@ tmap::tmap_save(Locations_plot, filename = file.path(path_output, "Puntos de riq
 ################################################################################
 ###  1. Datos desde GitHub
 ################################################################################
-
 # dependencias
 library(tidyverse)
 
@@ -269,7 +268,10 @@ data = read.csv("../02_original_data/02_bio_data/data_abundancia_relativa_desemb
 table(data$grupoFuncional)
 unique(data$grupoFuncional)
 
-# creando grafico
+################################################################################
+###  2. Bar Plot Gráfica
+################################################################################
+
 ggplot(data, aes(x= cuadrante, y= cobertura)) +
   geom_bar(aes(fill= data$grupoFuncional), stat= "identity",
            position= "fill", width= 1) +
