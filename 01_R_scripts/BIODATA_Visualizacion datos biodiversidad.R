@@ -274,17 +274,16 @@ unique(transects$grupoFuncional)
 ###  2. Bar Plot Gráfica
 ################################################################################
 
-ggplot(transects, aes(x= cuadrante, y= cobertura)) +
-  geom_bar(aes(fill= transects$grupoFuncional), stat= "identity",
-           position= "fill", width= 1) +
-  facet_grid(transects~ $altura, scales= "free_x") +
-  scale_y_continuous(name= "Abundancia Relativa",
-                     labels= scales::percent) +
-  theme(axis.text.x= element_text(angle= 90)) +
-  scale_fill_brewer(palette= "Paired") + 
-  labs(x= "",
-       title= "Abundancias relativas a lo largo de los cuadrantes",
-       fill= "Grupo funcional")
-
+ggplot(transects, aes(x = cuadrante, y = cobertura)) +
+  geom_bar(aes(fill = grupoFuncional), stat = "identity", 
+           position = "fill", width = 1) +
+  facet_grid(. ~ altura, scales = "free_x") +
+  scale_y_continuous(name = "Abundancia Relativa", 
+                     labels = scales::percent) +
+  theme(axis.text.x = element_text(angle = 90)) +
+  scale_fill_brewer(palette = "Paired") +
+  labs(x = "",
+       title = "Abundancias relativas a lo largo de los cuadrantes",
+       fill = "Grupo funcional")
 
 ## ¡GRACIAS, NOS VEMOS EN EL PRÓXIMO TALLER!
