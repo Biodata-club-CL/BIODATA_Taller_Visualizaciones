@@ -69,7 +69,7 @@ plot2
 # dependencias
 library(ggplot2)
 library(tidyverse)
-# correr una vezd
+# correr una vez
 install.packages("maps")
 library(maps)
 
@@ -78,7 +78,9 @@ url_merluccius = "https://github.com/Cam-in/BIODATA_Taller_Visualizaciones/raw/r
 download.file(url_merluccius, destfile= "data_merluccius.txt")
 
 # leyendo csv
-merluccius = read.csv("data_merluccius.txt", sep= "\t", header= T)
+merluccius = read.csv("../02_original_data/02_bio_data/data_merluccius_gbif.txt",
+                      sep= "\t", header=TRUE)
+
 head(colnames(merluccius))
 
 # filtrando data
@@ -264,18 +266,18 @@ tmap::tmap_save(Locations_plot, filename = file.path(path_output, "Puntos de riq
 library(tidyverse)
 
 # leyendo data
-data = read.csv("../02_original_data/02_bio_data/data_abundancia_relativa_desembocadura.csv", header= T)
-table(data$grupoFuncional)
-unique(data$grupoFuncional)
+transects = read.csv("../02_original_data/02_bio_data/data_desembocadura_plot.csv", sep= ";", header= T)
+table(transects$grupoFuncional)
+unique(transects$grupoFuncional)
 
 ################################################################################
 ###  2. Bar Plot Gráfica
 ################################################################################
 
-ggplot(data, aes(x= cuadrante, y= cobertura)) +
-  geom_bar(aes(fill= data$grupoFuncional), stat= "identity",
+ggplot(transects, aes(x= cuadrante, y= cobertura)) +
+  geom_bar(aes(fill= transects$grupoFuncional), stat= "identity",
            position= "fill", width= 1) +
-  facet_grid(~ data$altura, scales= "free_x") +
+  facet_grid(transects~ $altura, scales= "free_x") +
   scale_y_continuous(name= "Abundancia Relativa",
                      labels= scales::percent) +
   theme(axis.text.x= element_text(angle= 90)) +
