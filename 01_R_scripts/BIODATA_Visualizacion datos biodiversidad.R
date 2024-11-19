@@ -2,7 +2,7 @@
 ###
 ###    Visualización de indicadores de biodiversidad
 ###    Autores script: Daniel Valdés y Dra. Camila Neder
-###                 últimos cambios: 2024-Noviembre-07
+###                 últimos cambios: 2024-Noviembre-19
 ###                              R-4.4.1
 ###
 ################################################################################
@@ -74,7 +74,7 @@ install.packages("maps")
 library(maps)
 
 # descargando data de merluccius desde github
-url_merluccius = "https://github.com/pocketfall/biodata/raw/refs/heads/main/data/visualizacion_data_biodiversidad/data_merluccius/occurrence.txt"
+url_merluccius = "https://github.com/Cam-in/BIODATA_Taller_Visualizaciones/raw/refs/heads/main/02_original_data/02_bio_data/data_merluccius_gbif.txt"
 download.file(url_merluccius, destfile= "data_merluccius.txt")
 
 # leyendo csv
