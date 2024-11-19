@@ -265,52 +265,21 @@ tmap::tmap_save(Locations_plot, filename = file.path(path_output, "Puntos de riq
 library(tidyverse)
 
 # leyendo data
-data = read.csv("data_desembocadura.csv", header= T)
+data = read.csv("../02_original_data/02_bio_data/data_abundancia_relativa_desembocadura.csv", header= T)
 table(data$grupoFuncional)
 unique(data$grupoFuncional)
 
-# copiando data
-data1 = na.omit(data)
-
-# agregando columnas adicionales y modificando ya existentes
-total_puntos = 25
-data1$abundancia_relativa = data1$puntosDe25 / total_puntos
-data1$cuadrante = paste("Cuadrante", data1$cuadrante)
-data1$cuadrante = factor(data1$cuadrante, levels= unique(data1$cuadrante))
-
-# devidiendo intermareal en alto, bajo y medio
-length(data1$cuadrante) / 3
-alturas = c()
-for (i in 1:length(data1$cuadrante)) {
-  if (i <= 16) {
-    alturas[i] = "Alto"
-  } else if (i <= 54) {
-    alturas[i] = "Medio"
-  } else {
-    alturas[i] = "Bajo"
-  }
-}
-
-alturas = na.omit(alturas)
-data1$altura = alturas
-data1$altura = factor(data1$altura, levels= unique(data1$altura))
-
-data1 = data1 %>% filter(data1$abundancia_relativa != 0)
-
-data1$grupoFuncional = str_to_sentence(data1$grupoFuncional)
-
 # creando grafico
-ggplot(data1, aes(x= cuadrante, y= abundancia_relativa)) +
-  geom_bar(aes(fill= data1$grupoFuncional), stat= "identity",
+ggplot(data, aes(x= cuadrante, y= cobertura)) +
+  geom_bar(aes(fill= data$grupoFuncional), stat= "identity",
            position= "fill", width= 1) +
-  facet_grid(~ data1$altura, scales= "free_x") +
+  facet_grid(~ data$altura, scales= "free_x") +
   scale_y_continuous(name= "Abundancia Relativa",
                      labels= scales::percent) +
   theme(axis.text.x= element_text(angle= 90)) +
   scale_fill_brewer(palette= "Paired") + 
   labs(x= "",
-       title= "Abundancias relativas en diferentes cuadrantes",
-       subtitle= "Eliminando cuadrantes con abundancia relativa 0",
+       title= "Abundancias relativas a lo largo de los cuadrantes",
        fill= "Grupo funcional")
 
 
