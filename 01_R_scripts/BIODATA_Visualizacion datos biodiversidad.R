@@ -276,6 +276,10 @@ unique(transects$grupoFuncional)
 ###  2. Bar Plot Gráfica
 ################################################################################
 
+# modificando orden de data para que se presente de manera adecuada
+transects$altura = factor(transects$altura, levels= unique(transects$altura))
+transects$cuadrante = factor(transects$cuadrante, levels= unique(transects$cuadrante))
+
 ggplot(transects, aes(x = cuadrante, y = cobertura)) +
   geom_bar(aes(fill = grupoFuncional), stat = "identity", 
            position = "fill", width = 1) +
