@@ -15,9 +15,8 @@ packages <- c("tidyverse",
               "ggplot2",
               "maps",
               "svDialogs",
-              "RColorBrewer"
-
-)
+              "RColorBrewer",
+              "sf")
 
 ## Ahora instalar y cargar
 if (!require("pacman")) install.packages("pacman")
@@ -43,6 +42,7 @@ head(data)
 plot1 = data %>% ggplot(aes(x= wt, y= mpg, size= hp)) +
   geom_point(alpha= .5)
 plot1
+
 # gráfico de burbujas con colores agregados en base a los cilindros de cada auto
 plot2 = data %>% ggplot(aes(x= wt, y= mpg, size= hp,
                             color= cyl, label= Model)) + # label no parece afectar el grafico
@@ -69,13 +69,11 @@ plot2
 # dependencias
 library(ggplot2)
 library(tidyverse)
-# correr una vez
-install.packages("maps")
 library(maps)
 
 # descargando data de merluccius desde github
 url_merluccius = "https://github.com/Cam-in/BIODATA_Taller_Visualizaciones/raw/refs/heads/main/02_original_data/02_bio_data/data_merluccius_gbif.txt"
-download.file(url_merluccius, destfile= "data_merluccius.txt")
+download.file(url_merluccius, destfile= "../02_original_data/02_bio_data/data_merluccius_gbif.txt")
 
 # leyendo csv
 merluccius = read.csv("../02_original_data/02_bio_data/data_merluccius_gbif.txt",
@@ -264,6 +262,10 @@ tmap::tmap_save(Locations_plot, filename = file.path(path_output, "Puntos de riq
 ################################################################################
 # dependencias
 library(tidyverse)
+
+# descargando data
+url_transects = "https://github.com/Cam-in/BIODATA_Taller_Visualizaciones/raw/refs/heads/main/02_original_data/02_bio_data/data_desembocadura_plot.csv"
+download.file(url_transects, "../02_original_data/02_bio_data/data_desembocadura_plot.csv")
 
 # leyendo data
 transects = read.csv("../02_original_data/02_bio_data/data_desembocadura_plot.csv", sep= ";", header= T)
