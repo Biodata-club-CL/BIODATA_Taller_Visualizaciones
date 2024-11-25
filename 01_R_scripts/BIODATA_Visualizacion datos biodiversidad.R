@@ -257,6 +257,8 @@ tmap::tmap_save(Locations_plot, filename = file.path(path_output, "Puntos de riq
 #######################################
 ## D. BAR PLOT: ABUNDANCIAS RELATIVAS - Caso práctico desembocadura Bío Bío
 #######################################
+# Para otro ejemplo con unidades operacionaes taxonómicas y de otros ajustes gráficos, ver el Colab
+
 ################################################################################
 ###  1. Datos desde GitHub
 ################################################################################
