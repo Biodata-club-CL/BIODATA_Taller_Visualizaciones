@@ -19,4 +19,7 @@ Material suplementario & Ideas en tutoriales de video externos:
 * Otros materiales extra: https://www.datawim.com/post/creating-professional-bivariate-maps-in-r/
 
 
-_para Colab usar _https://colab.research.google.com/drive/1J8Xl-lMBk-jBeEzzp35JCLgQ0LbTAAvb?usp=sharing_
+para Colab usar _https://colab.research.google.com/drive/1J8Xl-lMBk-jBeEzzp35JCLgQ0LbTAAvb?usp=sharing_
+
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16929799.svg)](https://doi.org/10.5281/zenodo.16929799)
